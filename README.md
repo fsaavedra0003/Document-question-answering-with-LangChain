@@ -1,24 +1,25 @@
 # 📄 Document Q&A with LangChain + Pinecone + Streamlit
 
-This project is a simple interactive app that allows users to ask questions about a document corpus using a Retrieval-Augmented Generation (RAG) pipeline.
+
+This project allows users to upload documents and query them for specific answers using LangChain, Pinecone, and Streamlit. The system performs the following:
+
+- Upload documents to be indexed.
+- Convert documents into embeddings using LangChain.
+- Store embeddings in Pinecone for efficient querying.
+- Use Streamlit for an interactive interface to ask questions and get answers.
 
 ### 🔍 Features
 
-- LangChain-powered Q&A system
-- Vector search with Pinecone
-- Embeddings via OpenAI
-- Clean, interactive Streamlit interface
+- Document upload and indexing.
+- Text embeddings generation using LangChain.
+- Search for answers using Pinecone similarity search.
+- Real-time interactive Q&A with a Streamlit frontend.
 
-### 🧠 Tech Stack
+## Installation
 
-- `LangChain`
-- `OpenAI API`
-- `Pinecone`
-- `Streamlit`
+Clone the repository and install the dependencies.
 
-### 🚀 Setup Instructions
-
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/your-username/langchain-doc-qa.git
-   cd langchain-doc-qa
+```bash
+git clone https://github.com/fsaavedra0003/Document-QA-LangChain-Pinecone-Streamlit.git
+cd Document-QA-LangChain-Pinecone-Streamlit
+pip install -r requirements.txt
