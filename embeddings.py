@@ -16,6 +16,8 @@ load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 pinecone.init(api_key=os.getenv("PINECONE_API_KEY"), environment=os.getenv("PINECONE_ENV"))
 
+
+#generate the embeddings by passing the documents
 def generate_embeddings_from_documents(documents):
     # Load OpenAI embeddings from LangChain
     embeddings = OpenAIEmbeddings()
