@@ -1,7 +1,7 @@
 # 📄 Document Q&A with LangChain + Pinecone + Streamlit
 
 
-This project allows users to upload documents and query them for specific answers using  the framework of  LangChain, Pinecone vector database, and Streamlit web framework . The system performs the following:
+This project allows users to upload documents and query them for specific answers using  the framework of  LangChain, Pinecone vector database, and Streamlit web framework (front end) . The system performs the following:
 
 - Upload documents to be indexed.
 - Convert documents into embeddings using LangChain.
