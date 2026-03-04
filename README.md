@@ -14,6 +14,7 @@ This project allows users to upload documents and query them for specific answer
 - Text embeddings generation using LangChain.
 - Search for answers using Pinecone similarity search.
 - Real-time interactive Q&A with a Streamlit frontend.
+- UI
 
 ## Installation
 
